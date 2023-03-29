@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App Maker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/fb65fbfc62.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- for navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <div class="d-flex align-iteam-center">
+                <a class="navbar-brand" href="#">
+                    <h1>App-Maker</h1>
+                </a>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" href="#" data-bs-toggle="dropdown"> Product </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" href="#" data-bs-toggle="dropdown"> Expertise
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item active"> <a class="nav-link text-light" href="#">Reviews </a> </li>
+                    <li class="nav-item"><a class="nav-link text-light" href="about-us.html">About Us</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#">  </a></li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" href="#" data-bs-toggle="dropdown"> Contact </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-buttons d-flex justify-content-end">
+                <button class="bg-dark text-light"><a href="/log-in.html">Login</a></button>
+                <button class="bg-dark text-light"><a href="/sign-up.html">Sign Up</a></button>
+            </div>
+            <!-- navbar-collapse.// -->
+        </div> <!-- container-fluid.// -->
+    </nav>
+
+    <div class="navigationTypeWidget">
+        <div class="item-field" data-field-name="CheckBox"><label class="" title=""
+                for="CustomModelForm_notificationsEnabled">Enable push notifications</label>
+            <div class="item"><input type="hidden" value="false" name="CustomModelForm[notificationsEnabled]"><input
+                    checked="checked" type="checkbox" value="1" name="CustomModelForm[notificationsEnabled]"
+                    id="CustomModelForm_notificationsEnabled">
+                <div class="errorMessage hidden"></div>
+            </div>
+        </div>
+
+        <div class="navigationTypeWidget_title">
+            Customize app layout
+        </div>
+
+        <div class="TabsPositionWidget_theme">
+
+            <div class="navigationTypeWidget_item">
+                <div class="app_menu_style_label_parent">
+                    <label class="app_menu_style_label" for="app_menu_style_slider">
+                        <input class="app_menu_style_radio" value="SLIDER" name="NavigationTypeWidget[navigation_type]"
+                            type="radio" id="app_menu_style_slider" style="display: none;">
+
+                        <video id="app_menu_style_img_slider" alt="navigation type slider" class="app_menu_style_img"
+                            style="border: 10px solid #ffffff;" autoplay="" loop="" muted="">
+                            <source src="/assets/10a975af/slider.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </label>
+                </div>
+                <div class="app_menu_style_label_parent">
+                    <label class="lead app_menu_style_label" for="app_menu_style_tabs"><strong>Slider</strong></label>
+                </div>
+            </div>
+
+            <div class="navigationTypeWidget_item">
+                <div class="app_menu_style_label_parent">
+                    <label class="app_menu_style_label" for="app_menu_style_bottom">
+                        <input class="app_menu_style_radio" value="BOTTOM" name="NavigationTypeWidget[navigation_type]"
+                            type="radio" id="app_menu_style_bottom" checked="checked" style="display: none;">
+
+
+                        <video id="app_menu_style_img_bottom" alt="navigation type bottom" class="app_menu_style_img"
+                            style="border: 10px solid black;box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);"
+                            autoplay="" loop="" muted="">
+                            <source src="/assets/10a975af/bottom.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                    </label>
+                </div>
+                <div class="app_menu_style_label_parent">
+                    <label class="lead app_menu_style_label" for="app_menu_style_tabs"><strong>Bottom
+                            menu</strong></label>
+                </div>
+            </div>
+
+            <div class="navigationTypeWidget_item">
+                <div class="app_menu_style_label_parent">
+                    <label class="app_menu_style_label" for="app_menu_style_tabs">
+                        <input class="app_menu_style_radio" value="TABS" name="NavigationTypeWidget[navigation_type]"
+                            type="radio" id="app_menu_style_tabs" style="display: none;">
+                        <video id="app_menu_style_img_tabs" alt="navigation type tabs" class="app_menu_style_img"
+                            style="border: 10px solid #ffffff;" autoplay="" loop="" muted="">
+                            <source src="/assets/10a975af/tabs.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </label>
+                </div>
+                <div class="app_menu_style_label_parent">
+                    <label class="lead app_menu_style_label" for="app_menu_style_tabs"><strong>Tabs</strong></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="app_menu_style_actionbar  app_menu_style_label_parent">
+            <div class="">
+                <label class="lead app_menu_style_label" for="TabsPositionWidget_tabs_position"><strong>Action
+                        bar:</strong></label>
+            </div>
+            <div class="app_menu_style_label_parent">
+                <label class="app_menu_style_label" for="action_bar_true">
+                    <input id="action_bar_true" value="true" name="NavigationTypeWidget[action_bar]" type="radio">
+                    Yes
+                </label>
+
+                <label class="app_menu_style_label" for="action_bar_false">
+                    <input id="action_bar_false" value="false" name="NavigationTypeWidget[action_bar]" type="radio"
+                        checked="checked">
+                    No
+                </label>
+
+            </div>
+        </div>
+
+        <div class="app_menu_style_tabs_radio">
+            <div class="app_menu_style_label_parent">
+                <label class="lead app_menu_style_label" for="TabsPositionWidget_tabs_position"><strong>Tabs
+                        position:</strong></label>
+            </div>
+            <div class="app_menu_style_label_parent">
+                <label class="app_menu_style_label" for="tabs_position_top">
+                    <input id="tabs_position_top" value="top" name="NavigationTypeWidget[tabs_position]" type="radio"
+                        checked="checked">
+                    Top
+                </label>
+
+                <label class="app_menu_style_label" for="tabs_position_bottom">
+                    <input id="tabs_position_bottom" value="bottom" name="NavigationTypeWidget[tabs_position]"
+                        type="radio">
+                    Bottom
+                </label>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="next-button"><a href="Create-website-app.html">next</a></div>
+</body>
+
+</html>

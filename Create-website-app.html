@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App Maker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/fb65fbfc62.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="bg-dark">
+        <div>
+            <h1 class="text-light text-center p-4"> Create Website App</h1>
+        </div>
+    </nav>
+
+    <div class="create-web-app">
+        <p class="text-center text-align-justify"><span class="fw-bold">Create Android app for your website
+                without
+                coding</span><br>
+            Make a comprehensive app with multiple features and fast access to the website. <br>The apk features
+            include:
+            social media tabs, push notifications, monetization, any URL support. Give your users instant access to your
+            own website and favorite web pages.
+        </p><br>
+        <p class="text-center text-align-justify">
+            <span class="fw-bold">How to convert website to Android app</span><br>
+            Copy-paste your website URL (link), add social media tabs (Facebook, Blog, YouTube, Twitter), name your app,
+            choose or upload the icon. Use the keywords in the name and description, tell about your features, localize
+            your app in your home language. Preview your website app to see how it works before building an apk file.
+        </p>
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item mb-2">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        App Setting
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <div class="navigationTypeWidget">
+                            <div class="item-field" data-field-name="CheckBox"><label class="" title=""
+                                    for="CustomModelForm_notificationsEnabled">Enable push notifications</label>
+                                <div class="item"><input type="hidden" value="false"
+                                        name="CustomModelForm[notificationsEnabled]"><input checked="checked"
+                                        type="checkbox" value="1" name="CustomModelForm[notificationsEnabled]"
+                                        id="CustomModelForm_notificationsEnabled">
+                                    <div class="errorMessage hidden"></div>
+                                </div>
+                            </div>
+
+                            <div class="navigationTypeWidget_title">
+                                Customize app layout
+                            </div>
+
+                            <div class="TabsPositionWidget_theme">
+
+                                <div class="navigationTypeWidget_item">
+                                    <div class="app_menu_style_label_parent">
+                                        <label class="app_menu_style_label" for="app_menu_style_slider">
+                                            <input class="app_menu_style_radio" value="SLIDER"
+                                                name="NavigationTypeWidget[navigation_type]" type="radio"
+                                                id="app_menu_style_slider" style="display: none;">
+
+                                            <video id="app_menu_style_img_slider" alt="navigation type slider"
+                                                class="app_menu_style_img" style="border: 10px solid #ffffff;"
+                                                autoplay="" loop="" muted="">
+                                                <source src="/assets/10a975af/slider.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </label>
+                                    </div>
+                                    <div class="app_menu_style_label_parent">
+                                        <label class="lead app_menu_style_label"
+                                            for="app_menu_style_tabs"><strong>Slider</strong></label>
+                                    </div>
+                                </div>
+
+                                <div class="navigationTypeWidget_item">
+                                    <div class="app_menu_style_label_parent">
+                                        <label class="app_menu_style_label" for="app_menu_style_bottom">
+                                            <input class="app_menu_style_radio" value="BOTTOM"
+                                                name="NavigationTypeWidget[navigation_type]" type="radio"
+                                                id="app_menu_style_bottom" checked="checked" style="display: none;">
+
+
+                                            <video id="app_menu_style_img_bottom" alt="navigation type bottom"
+                                                class="app_menu_style_img"
+                                                style="border: 10px solid black;box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);"
+                                                autoplay="" loop="" muted="">
+                                                <source src="/assets/10a975af/bottom.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+
+                                        </label>
+                                    </div>
+                                    <div class="app_menu_style_label_parent">
+                                        <label class="lead app_menu_style_label"
+                                            for="app_menu_style_tabs"><strong>Bottom
+                                                menu</strong></label>
+                                    </div>
+                                </div>
+
+                                <div class="navigationTypeWidget_item">
+                                    <div class="app_menu_style_label_parent">
+                                        <label class="app_menu_style_label" for="app_menu_style_tabs">
+                                            <input class="app_menu_style_radio" value="TABS"
+                                                name="NavigationTypeWidget[navigation_type]" type="radio"
+                                                id="app_menu_style_tabs" style="display: none;">
+                                            <video id="app_menu_style_img_tabs" alt="navigation type tabs"
+                                                class="app_menu_style_img" style="border: 10px solid #ffffff;"
+                                                autoplay="" loop="" muted="">
+                                                <source src="/assets/10a975af/tabs.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </label>
+                                    </div>
+                                    <div class="app_menu_style_label_parent">
+                                        <label class="lead app_menu_style_label"
+                                            for="app_menu_style_tabs"><strong>Tabs</strong></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app_menu_style_actionbar  app_menu_style_label_parent">
+                                <div class="">
+                                    <label class="lead app_menu_style_label"
+                                        for="TabsPositionWidget_tabs_position"><strong>Action
+                                            bar:</strong></label>
+                                </div>
+                                <div class="app_menu_style_label_parent">
+                                    <label class="app_menu_style_label" for="action_bar_true">
+                                        <input id="action_bar_true" value="true" name="NavigationTypeWidget[action_bar]"
+                                            type="radio">
+                                        Yes
+                                    </label>
+
+                                    <label class="app_menu_style_label" for="action_bar_false">
+                                        <input id="action_bar_false" value="false"
+                                            name="NavigationTypeWidget[action_bar]" type="radio" checked="checked">
+                                        No
+                                    </label>
+
+                                </div>
+                            </div>
+
+                            <div class="app_menu_style_tabs_radio">
+                                <div class="app_menu_style_label_parent">
+                                    <label class="lead app_menu_style_label"
+                                        for="TabsPositionWidget_tabs_position"><strong>Tabs
+                                            position:</strong></label>
+                                </div>
+                                <div class="app_menu_style_label_parent">
+                                    <label class="app_menu_style_label" for="tabs_position_top">
+                                        <input id="tabs_position_top" value="top"
+                                            name="NavigationTypeWidget[tabs_position]" type="radio" checked="checked">
+                                        Top
+                                    </label>
+
+                                    <label class="app_menu_style_label" for="tabs_position_bottom">
+                                        <input id="tabs_position_bottom" value="bottom"
+                                            name="NavigationTypeWidget[tabs_position]" type="radio">
+                                        Bottom
+                                    </label>
+
+                                </div>
+                            </div>
+                            <!-- <div class="next-button"><a href="#panelsStayOpen-headingTwo">next</a></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-2">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        App monetization
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <form class="accordion-form-1">
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">HTML</label><br>
+                            <input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">CSS</label><br>
+                            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                            <label for="javascript">JavaScript</label>
+                        </form>
+                        <p class="mt-4 mb-0">After you enable In-App Purchases and publish your app, you need to set
+                            them up
+                            using the
+                            guide in the Dashboard</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-2">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        App Name
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <form>
+                            <input type="text" placeholder="Enter your app Name" style="width: -webkit-fill-available;">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        Icon
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+                        <form class="accordion-form-1">
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Default Icon</label><br>
+                            <input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">Custom Icon</label><br>
+                            <button class="accordion-4-button"><a style="color: white">Next</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="creat-button">
+            <button class="bg-dark"><a class="text-light" href="log-in.html">CREATE</a></button>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

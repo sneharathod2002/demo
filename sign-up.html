@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App Maker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/fb65fbfc62.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <div class="d-flex align-iteam-center">
+                <a class="navbar-brand" href="#">
+                    <h1>App-Maker</h1>
+                </a>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" href="#" data-bs-toggle="dropdown"> Product </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" href="#" data-bs-toggle="dropdown"> Expertise
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item active"> <a class="nav-link text-light" href="#">Reviews </a> </li>
+                    <li class="nav-item"><a class="nav-link text-light" href="about-us.html">About Us</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#">  </a></li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" href="#" data-bs-toggle="dropdown"> Contact </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                            <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-buttons d-flex justify-content-end">
+                <button class="bg-dark text-light"><a href="log-in.html">Login</a></button>
+                <button class="bg-dark text-light"><a href="sign-up.html">Sign Up</a></button>
+            </div>
+            <!-- navbar-collapse.// -->
+        </div> <!-- container-fluid.// -->
+    </nav>
+
+
+    <section class="">
+        <div class="container py-5 h-100">
+            <div class="sign-up-part row d-flex align-items-center justify-content-center h-100">
+
+                <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+                    <form>
+                        <div class="form-outline mb-4">
+                            <input type="name" id="form1Example13" class="form-control form-control-lg"
+                                placeholder="Name">
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form1Example13" class="form-control form-control-lg"
+                                placeholder="Email address">
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                            <input type="password" id="form1Example23" class="form-control form-control-lg"
+                                placeholder="Password" />
+
+                        </div>
+
+                        <div class="d-flex justify-content-around align-items-center mb-4">
+                            <!-- Checkbox -->
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                                <label class="form-check-label" for="form1Example3"> Remember me </label>
+                            </div>
+                            <a href="#!">Forgot password?</a>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+
+                        <div class="divider d-flex align-items-center my-4">
+                            <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+                        </div>
+
+                        <a class="btn btn-primary btn-lg btn-block"
+                            style="background-color: #3b5998; border-color: transparent;" href="#!" role="button">
+                            <i class="fab fa-facebook-f me-2"></i>Continue with Facebook
+                        </a>
+                        <a class="btn btn-primary btn-lg btn-block"
+                            style="background-color: #55acee; border-color: transparent;" href="#!" role="button">
+                            <i class="fab fa-twitter me-2"></i>Continue with Twitter</a>
+
+                    </form>
+                </div>
+
+                <div class="col-md-8 col-lg-7 col-xl-6">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+                        class="img-fluid" alt="Phone image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
